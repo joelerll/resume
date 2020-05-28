@@ -1,92 +1,107 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Joel
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+  last: Rodriguez
+about: Hola, mi nombre es Joel Rodriguez. Soy un desarrollador de software con mayor experiencia en desarrollo web. Mi tecnología preferida es Nodejs
 position: Software Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1995
+  location: Guayaquil, Ecuador
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Arapahoe Basin Ski
+  position: Busser
+  timeperiod: Febrero 2020 - Marzo 2020
+  website: https://www.arapahoebasin.com/
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: 01Lab
+  position: Nodejs Backend Developer
+  timeperiod: Noviembre 2018 - Noviembre 2019
+  description: Desarrollo de chatbots empresariales.
+  website: https://www.jelou.ai/
+
+- company: CTI Espol
+  position: Ruby on Rails Developer
+  timeperiod: Marzo 2018 - Agosto 2018
+  description: Plataforma para estudiantes y profesores de la universidad ESPOL.
+  website: https://www.sidweb.espol.edu.ec/welcome
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Ingeniero en Ciencias Computacionales
+  timeperiod: Marzo 2013 - Febrero 2020
+  description: Ingeniero en Ciencias Computacionales
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
 
 # skill level goes 0 to 100
 skills:
 - name: HTML5
   level: 99
 - name: CSS3
-  level: 95
+  level: 75
 - name: JavaScript
-  level: 97
+  level: 100
 - name: Node.js
-  level: 93
+  level: 95
 - name: Angular 2
-  level: 60
+  level: 50
+- name: Angular
+  level: 50
 - name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
+  level: 60
 - name: Docker
+  level: 50
+- name: React.js
+  level: 60
+- name: Vuejs
+  level: 80
+- name: Mysql
+  level: 70
+- name: MongoDB
+  level: 90
+- name: Redis
+  level: 90
+- name: Java
+  level: 60
+- name: Laravel
+  level: 50
+- name: Ruby on Rails
+  level: 75
+- name: Linux
+  level: 80
+- name: C
+  level: 50
+- name: WebSockets
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Git
+  level: 90
+- name: Python
+  level: 70
+
+knowledge: Inglés intermedio
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: PPL Assessment
+  platform: Vue, Nodejs, Mongodb
+  description: Aplicación en realtime para profesores y estudiantes usado en las clases de física.
+  url: https://github.com/razerjon24/ppl_app_lab
 
 hobbies:
 - name: Video Games
   iconClass: fa fa-gamepad
-  url: https://example.com
 
-- name: Drawing
+- name: Anime
   iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: joelerll@gmail.com
+  phone: +593 986901270
+  street: Coop. Universitaria Mz 259 Solar 8
+  city: Guayaquil
+  github: joelerll
+  linkedin: joel-rodriguez-899078102
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: es
 `
