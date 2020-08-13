@@ -115,6 +115,14 @@
         {{education.timeperiod}}, {{education.description}}
       </p>
     </div>
+    <div class="section-headline">{{ lang.projects }}</div>
+    <div class="block" v-for="proyect in person.projects">
+      <div class="block-helper"></div>
+      <div class="headline">{{proyect.name}}</div>
+      <p class="info">
+        {{proyect.timeperiod}}, {{proyect.description}}
+      </p>
+    </div>
   </div>
 
   <div style="clear:both;"></div>

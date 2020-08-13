@@ -13,6 +13,7 @@
     "html"
   ],
   "rules": {
+    "linebreak-style": ["error", "windows"],
     "accessor-pairs": "error",
     "array-bracket-newline": "off",
     "array-bracket-spacing": [
@@ -94,10 +95,6 @@
     "key-spacing": "error",
     "keyword-spacing": "off",
     "line-comment-position": "off",
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
     "lines-around-comment": "off",
     "lines-around-directive": "error",
     "lines-between-class-members": "off",
